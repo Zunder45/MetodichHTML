@@ -1,0 +1,141 @@
+*{
+    font-size: 16px;
+    scrollbar-color: rgba(27, 26, 116, 0.5) rgba(0, 0, 0, 0);
+}
+body{ 
+    background-color: rgb(14, 14, 61);
+
+}
+
+.bttClss{
+    font-weight: 45px;
+    color: white;
+    border-radius: 5px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+}
+
+#bttHid{
+    width: 300px;
+    height: auto;
+    border-top-right-radius: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    float: left;
+    box-shadow:
+        inset -2px -2px rgba(0,0,0,.3),
+        inset 2px 2px rgba(255,255,255,.3);
+    background: #053852 repeating-linear-gradient(#053852, #086897);
+}
+
+#bttFi{
+    margin-bottom: 7px;
+}
+
+#leftPanel .bttClss{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    height: auto;
+    min-height: 20px;
+    margin-top: 10px;
+    box-shadow:
+        inset -2px -2px rgba(0,0,0,.3),
+        inset 2px 2px rgba(255,255,255,.3);
+    background: #053852 repeating-linear-gradient(#053852, #086897);
+}
+.bttBorder{
+    outline: 2px solid green;
+    color: rgb(4, 250, 4);
+}
+res a{
+    color: #007f7f;
+}
+res{
+    overflow:hidden;
+    color: white;
+    display: block;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 96%;
+    border-left: 2px solid #808080;
+}
+
+res:hover{
+    border-left: 2px solid #4c7e30;
+}
+
+#leftPanel .bttClss:hover{
+    background: rgba(53, 167, 110, .8);
+}
+
+#leftPanel{
+    position: absolute;
+    
+    /* border: 7px solid; */
+    overflow: scroll;
+    overflow-x: auto;
+    overflow-y: auto;
+    display: none;
+    width: 300px;
+    height: 90vh;
+    background-color: rgba(0, 15, 21, .9);
+    margin-right: 7px;
+    float: left;
+}
+
+#rightPanel{
+    display: grid;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+    /* min-height: 10px; */
+    height: 90vh;
+    
+}
+
+#page{
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+    scrollbar-color: rgba(27, 26, 116, 0.5) rgba(0, 0, 0, 0);
+}
+#h3hr{
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+    background-color: rgba(2,2,9);
+    
+    border: 2px solid #555555;
+    /* border-bottom: 2px solid #555555; */
+}
+
+#h3hr > h4{
+    padding-bottom: 5px;
+    margin: 7px 0 7px 0;
+    color: white;
+    text-align: center;
+}
+
+#bttHelp{
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+    border-radius: 50px;
+    float: right;
+    margin: 11px;
+    font-weight: bold;
+    height: auto;
+    min-height: 20px;
+    margin-top: 10px;
+    box-shadow:
+        inset -2px -2px rgba(0,0,0,.3),
+        inset 2px 2px rgba(255,255,255,.3);
+    background: #053852 repeating-linear-gradient(#053852, #086897);
+}
+
+#clear{
+    clear: both;
+}
