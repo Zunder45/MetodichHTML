@@ -23,7 +23,8 @@ var res = document.querySelectorAll("res");
 for (var i=0; i<res.length; i++){
     var content = res[i].innerHTML;
     var title = res[i].title;
-    res[i].innerHTML = "<p>"+title+"<br><a href="+content+">"+title+"</a></p>";
+    var nameFile = content.split("/")
+    res[i].innerHTML = "<p>"+title+"<br><a href="+content+">"+nameFile[nameFile.length - 1]+"</a></p>";
     res[i].title = ""
 }
 

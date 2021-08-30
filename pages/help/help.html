@@ -31,49 +31,89 @@
     <details><summary>Кнопоки</summary>
 
         <p>Создание кнопки происходть в документе index.html c помощью тега <code>&lt;btt&gt;&lt;/btt&gt;</code></p>
-        <code>&lt;btt title=&quot;Название страници&quot;&gt;Название кнопки&lt;/btt&gt;</code>
-        <br>
-        <br>
+        <p><code>&lt;btt title=&quot;<c title="green">Название файла страници (без расширения)</c>&quot;&gt;<c title="green">Название кнопки</c>&lt;/btt&gt;</code></p>
+
         <img src="res\img\кнопки.PNG" alt="">
-        
-        <!-- <code>py 123.py</code> -->
+        <img src="res\img\кнопкиВид.png" alt="">
     
     </details>
 
-    <details><summary>Заголовки в боковом неню</summary></details>
-
-    <details><summary>Ссылоки</summary></details>
-
-    <details><summary>Начальная страница (титуль)(0.html)</summary></details>
-
-    <details><summary>Создание методички</summary></details>
+    <details><summary>Раздел в боковом неню</summary>
     
-    <details><summary>Файлы</summary>
+       <p><code> &lt;z title=&quot;<c title="green">Раздел</c>&quot;&gt;<c title="green">*Содержание раздела*</c>&lt;/z&gt;</code></p>
+        
+       <img src="./res/img/загл.png" alt="">
+       <img src="./res/img/разд.png" alt="">
+
+
+    </details>
+
+    <details><summary>Ссылоки</summary>
+        <p><code>&lt;res title=&quot;<c title="green">Заголовок</c>&quot;&gt; <c title="green">Название файла (с расширением (.txt .html и тд))</c>&lt;/res&gt;</code></p> 
+        <img src="./res/img/рескод.png" alt="">
+        <img src="./res/img/ресвид.png" alt="">
+
+    </details>
+
+    <!-- <details><summary>Начальная страница (титуль)(0.html)</summary></details> -->
+
+    <details><summary>Создание методички</summary>
+        <ul>
+            <li>Заполняется тема методички в титульной странице (/pages/pages/0.html)</li>
+            <li>Создаем страницы в /pages/pages</li>
+            <li>Создаем кнопкуи</li>
+            <li>Создаем разделы методички</li>
+        </ul>
+    </details>
+    
+    <details><summary>Теги страниц</summary>
+        <details><summary>Заголовок</summary>
+            <p><code>&lt;hp&gt;Заголовок&lt;/hp&gt;</code></p>
+            <img src="./res/img/заглМ.png" alt="">
+        </details>
+
+        <details><summary>Картинка</summary>
+            <p><code>&lt;imag title=&quot;<c title="green">ТЕКСТ ПОД КАРТИНКОЙ</c>&quot;&gt;<c title="green">НАЗВАНИЕ КАРТИНКИ</c>&lt;/imag&gt;</code></p>
+            <p>Картинки берутся из каталога <code>pages/src/img</code></p>
+            <img src="./res/img/кар.png" alt="">
+        </details>
+
+        <details><summary>Цветной текст</summary>
+            <p><code>&lt;c title=&quot;green&quot;&gt;<c title="green">цвет</c>&lt;/c&gt;</code></p>
+            <img src="./res/img/кактус.png" alt="">
+        </details>
+    </details>
+
+    <details><summary>Автотабуляция</summary>
+        Автотабуляция выключается в файле <code>pages/js/scr.js</code> 
+    </details>
+
+    <details><summary>Файлы и каталоги</summary>
         <p>Файлы и каталоги пользователя:</p>
         <table border="1">
             <tr>
-                <td>Pages/Pages</td>
+                <td>/Pages/Pages</td>
                 <td>Каталог в каторой хранятся страницы методички</td>
             </tr>
 
             <tr>
-                <td>Pages/Pages/0.html</td>
+                <td>/Pages/Pages/0.html</td>
                 <td>Начальная страница (титульник) (можно изменит в index.html)</tr>
             </tr>
 
             <tr>
-                <td>Pages/Pages/шаблон.html</td>
+                <td>/Pages/Pages/шаблон.html</td>
                 <td>Шаблон для страницы методички<tr>
             </tr>
 
             <tr>
-                <td>Pages/src/file</td>
-                <td>Каталог, где хранятся файлы методички (используется для тега )</td>
+                <td>/Pages/src/file</td>
+                <td>Каталог, где хранятся файлы методички (используется для тега res)</td>
             </tr>
 
             <tr>
-                <td>Pages/src/img</td>
-                <td>Каталог, где хранятся изображения (скриншоты, схемы и тд) методички</td>
+                <td>/Pages/src/img</td>
+                <td>Каталог, где хранятся изображения (скриншоты, схемы и тд) методички (используется для тега imag)</td>
             </tr>
         </table>
         

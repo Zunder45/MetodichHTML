@@ -2,9 +2,8 @@
     font-size: 16px;
     scrollbar-color: rgba(27, 26, 116, 0.5) rgba(0, 0, 0, 0);
 }
-body{ 
+html{ 
     background-color: rgb(14, 14, 61);
-
 }
 
 .bttClss{

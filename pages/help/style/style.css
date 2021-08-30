@@ -1,3 +1,7 @@
+html{
+    background-color: #484886;
+    color: #B3D986;
+}
 *{
     font-size: 18px;
 }
@@ -14,7 +18,7 @@ details{
     border-bottom: 4px dotted black;
 }
 code{
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(54, 53, 53);
     border-radius: 5px;
     font-weight: bold;
 }
